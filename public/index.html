@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>imgdb</title>
+	<link href="/public/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="title">imgdb</div>
+		<div><p>upload and share images<br>online anytime anyplace</p></div>
+		<div class="view">
+			<h4 id="output"></h4>
+			<form enctype="multipart/form-data" method="POST" action="/api/uploaded">
+				<input id="inputfield" type="file" name="upfile" accept="image/*" required>
+            <input id="button" type="submit" value="upload">
+            </form>
+        </div>
+	</div>
+   </body>
+</html>

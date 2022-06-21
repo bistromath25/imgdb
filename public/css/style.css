@@ -1,0 +1,36 @@
+body {
+    font-family: monospace;
+    color: #808080;
+    font-size: 16px;
+    background-color:#EDEBE9;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    padding: 10;
+    margin-top: 40px;
+}
+
+input {
+    display: block;
+    position: relative;
+    margin: 10px auto;
+}
+
+input#button {
+    width: 252px;
+}
+
+.view {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 80%;
+    min-width: 100px;
+}
